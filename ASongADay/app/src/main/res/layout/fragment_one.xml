@@ -1,0 +1,217 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Today">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="#757575"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="207dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                app2:srcCompat="@drawable/default_cover"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:id="@+id/imageView2" />
+
+            <ImageButton
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="match_parent"
+                android:layout_height="197dp"
+                android:src="@drawable/play"
+                android:padding="16dp"
+                android:id="@+id/ibPlay"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:elevation="24dp"
+                android:background="@null" />
+
+        </FrameLayout>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sbSong" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:stretchColumns="*"
+            android:layout_height="80dp"
+            android:background="#505393">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_weight="1"
+                android:scrollbarSize="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btnEmoji1"
+                    android:onClick="btnEmoji1"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app2:srcCompat="@drawable/sad"
+                    android:layout_weight="1"
+                    android:backgroundTint="#BDBDBD"
+                    android:layout_width="wrap_content"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/btnEmoji2"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    app2:srcCompat="@drawable/sad2"
+                    android:layout_weight="1"
+                    android:backgroundTint="#BDBDBD"
+                    android:layout_width="wrap_content"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/btnEmoji3"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    app2:srcCompat="@drawable/neutral"
+                    android:layout_weight="1"
+                    android:backgroundTint="#BDBDBD"
+                    android:layout_width="wrap_content"></ImageButton>
+                <ImageButton
+                    android:id="@+id/btnEmoji4"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    app2:srcCompat="@drawable/happy"
+                    android:layout_weight="1"
+                    android:backgroundTint="#BDBDBD"
+                    android:layout_width="wrap_content"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/btnEmoji5"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    app2:srcCompat="@drawable/excited"
+                    android:layout_weight="1"
+                    android:backgroundTint="#BDBDBD"
+                    android:layout_width="wrap_content"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/btnEmoji6"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    app2:srcCompat="@drawable/eargasm"
+                    android:layout_weight="1"
+                    android:backgroundTint="#BDBDBD"
+                    android:layout_width="wrap_content"></ImageButton>
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center_horizontal"
+            android:text="@string/scratch_info"
+            android:id="@+id/editText" />
+
+        <com.cooltechworks.views.ScratchTextView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:gravity="center"
+            android:padding = "20dp"
+            android:text="@string/scratchText"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:background="#505393"
+            android:layout_margin="10dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="#BDBDBD"
+            android:radius="10dip" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:stretchColumns="*"
+            android:layout_gravity="center"
+            android:background="#505393">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scrollbarSize="0dp"
+                android:layout_gravity="center_horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/share1"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitCenter"
+                    app2:srcCompat="@drawable/share"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:layout_width="10dp"></ImageButton>
+                <ImageButton
+                    android:id="@+id/share2"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitCenter"
+                    app2:srcCompat="@drawable/youtube"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:layout_width="10dp"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/share3"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    app2:srcCompat="@drawable/spotify"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:layout_width="10dp"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/share4"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    app2:srcCompat="@drawable/soundcloud"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:layout_width="10dp"></ImageButton>
+
+                </TableRow>
+
+        </TableLayout>
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">A Song A Day</string>
+
+    <string name="action_settings">About</string>
+
+    <string name="today_title">Today</string>
+    <string name="Past">Past</string>
+    <string name="Submit">Settings</string>
+    <string name="title_activity_simple_tabs">Simple Tabs</string>
+    <string name="btn_simple_tabs">Simple Tabs</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="scratchText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu orci sit amet ex convallis dignissim id eu libero. Pellentesque faucibus non metus nec fermentum. Vivamus sed ornare enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer congue dolor ut massa posuere lacinia. Quisque semper volutpat vehicula. Praesent auctor quam quam, ultrices aliquet nisi convallis sodales. Sed gravida ante eget neque egestas, ut luctus mi accumsan.</string>
+    <string name="scratch_info">Scratch to unravel song info:</string>
+
+    <string name="song_url">http://lookintomylife.site88.net/today/song.mp3</string>
+
+
+</resources>

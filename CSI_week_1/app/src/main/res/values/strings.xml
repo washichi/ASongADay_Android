@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CSI_week_1</string>
+    <string name="suspect_img">suspect_img</string>
+    <string name="namevalue">nameValue</string>
+    <string name="gendervalue">genderValue</string>
+    <string name="agevalue">ageValue</string>
+    <string name="bountyvalue">bountyValue</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="bounty">Bounty</string>
+</resources>

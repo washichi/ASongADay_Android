@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp" >
+
+        <TextView
+            android:id="@+id/subject_textview"
+            android:maxLines = "1"
+            android:scrollbars = "vertical"
+            android:layout_height="match_parent"
+            android:layout_width="360dp"
+            android:layout_gravity="left"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+        <!--<ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/spotify_icon"
+            android:scaleType="fitCenter"
+            android:id="@+id/ibSpotify" />-->
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="7dp"
+            app:srcCompat="?attr/actionModeShareDrawable"
+            android:id="@+id/ibShare"
+            android:backgroundTint="#505393" />
+
+    </TableRow>
+
+
+</LinearLayout>

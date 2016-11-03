@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">CSI_week1_V2</string>
+    <string name="suspect">suspect</string>
+    <string name="name">Name:</string>
+    <string name="gender">Gender:</string>
+    <string name="age">Age:</string>
+    <string name="bounty">Bounty:</string>
+    <string name="ageValue">34</string>
+    <string name="bountyValue">$999999</string>
+    <string name="nameValue">Batman</string>
+    <string name="genderValue">Male</string>
+    <string name="details">Details</string>
+    <string name="detailsText">Two gunshots.
+
+Snuffled the life out of my life.
+
+My life. My parents.
+
+Bang. Bang.
+
+Echo. Silence. Tears. Silence again.
+
+In the midst of that silence, a vow.
+
+A silent vow.
+
+A vow to snuffle the life out of crime in Gotham.
+
+Gotham. Get them.
+
+Why so serious? That is why.
+
+Why so scared? Coz I was frozen that moment. Call me Mr.Freeze.
+
+All afraid. Alfred. He is there for me.
+
+The vow still strong. Standing still. Waiting to scare like a Scarecrow.
+
+Cemented in Clay for now.
+
+A train of thoughts. Trained hard.
+
+Conquered the Shadows. A League that too.
+
+Fear, come here.
+
+I wanted that. So a Bat. My fear that was.
+
+Yes, it was. Past. Now me, an agent of fear.
+
+Money. I had loads.
+
+Money. That is what drives criminals to such roads.
+
+Notes. Coins.
+
+Coin. Two sides. Two Faces.
+
+Me and the Bat.
+
+Me? A boon for Gotham.
+
+The Bat? A Bane for crime.
+
+So I venture into the night. The darkness.
+
+The hustle of a millions bats in one. The Joke is on silence this time.
+
+I make my move. Checkmate. With my Dark Knight.
+
+I strike. Fear in the hearts of crime. A Riddle in the minds of crime.
+Who am I?\nA silence followed by an echo. Again. This time, not for me but crime.
+
+An echo. One little push and that echo booms.
+
+I am......
+
+Batman.</string>
+    <string name="report">Report</string>
+
+</resources>
